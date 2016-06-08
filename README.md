@@ -2,7 +2,7 @@
 sign(params, secret, options)
 
 options(非必需):
->signType: `MD5``SHA1`,默认`MD5`
+>signType: `MD5``SHA1`,默认`SHA1`
 >
 >spli: 默认 `&`
 >
@@ -15,7 +15,7 @@ options(非必需):
 
 validate(params, secret, options)
 options(非必需):
->signType: `MD5``SHA1`,默认`MD5`
+>signType: `MD5``SHA1`,默认`SHA1`
 >
 >spli: 默认 `&`
 >
